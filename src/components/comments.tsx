@@ -43,7 +43,7 @@ export default function CommentSection({ blogId }: CommentSectionProps) {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center lg:items-start mt-10 bg-gray-300 max-w-3xl ml-0 lg:ml-[120px] p-4 mb-10">
+    <div className="flex flex-col justify-center items-start mt-10 bg-gray-300 w-full md:max-w-3xl lg:max-w-3xl ml-0 lg:ml-[120px] p-4 mb-10">
       <h2 className="text-[32px] font-semibold">Comments</h2>
       <div className="w-full lg:w-[500px] mt-4 space-y-2">
         {comments.length > 0 ? (

@@ -24,7 +24,7 @@ export default function DetailPage({ params }: { params: { id: string } }) {
     {
       id: "3",
       title: "Beef Pulao Recipe",
-      src: "/images/Beef-pulao.png",
+      src: "/images/Beef-Pulao.png",
       detail: "A flavorful and aromatic beef pulao to enjoy with family.",
       description:
         "To make Beef Pulao, heat oil in a pot and sauté whole spices like cinnamon,cloves, and cardamom. Add 1 kg beef cubes and brown them. Set aside. In the same pot, sauté onions until golden, then add ginger-garlic paste and chopped tomatoes. Stir in cumin, coriander, garam masala, chili powder, and salt. Add the beef back with water, simmer until tender. Rinse 2 cups basmati rice and add it to the pot with water. Cook until rice is done. Garnish with fried onions and serve!",
@@ -81,8 +81,8 @@ export default function DetailPage({ params }: { params: { id: string } }) {
 
   return (
     <div>
-      <div className="flex flex-col items-center lg:items-start mt-20 ml-0 sm:ml-0 md:ml-0 lg:ml-[130px]  px-[5px] lg:px-0">
-        <h1 className="text-[38px] font-bold mt-10">{blog.title}</h1>
+      <div className="flex flex-col  lg:items-start mt-6 md:mt-20 lg:mt-20 ml-0 sm:ml-0 md:ml-0 lg:ml-[130px]  p-[8px] lg:px-0">
+        <h1 className="text-[38px] font-bold mt-10 ">{blog.title}</h1>
         <Image
           src={blog.src}
           alt={blog.title}
@@ -93,10 +93,10 @@ export default function DetailPage({ params }: { params: { id: string } }) {
         <h3 className="text-[38px] italic text-red-400 font-bold mt-8">
           Your Recipe:
         </h3>
-        <p className="text-gray-700 mt-5 text-[18px] w-full lg:max-w-3xl">
+        <p className="text-gray-700 mt-5 text-[18px] w-full lg:max-w-3xl ">
           {blog.description}
         </p>
-        <p className="text-[24px] text-teal-400 font-medium mt-5 italic">
+        <p className="text-[24px] text-teal-400 font-medium mt-5 italic text-center">
           Try This Recipe and Share Your Thoughts!
         </p>
       </div>
