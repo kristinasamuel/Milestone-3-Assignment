@@ -50,7 +50,7 @@ export default function HeroSection() {
           {
             src: "/images/Miso.jpeg",
             alt: "Easy Miso Glazed Salmon",
-            title: "MisoGlazed Salmon",
+            title: "Glazed Salmon",
           },
           {
             src: "/images/pumpkin.jpeg",

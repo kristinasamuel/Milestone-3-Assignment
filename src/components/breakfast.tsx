@@ -19,7 +19,7 @@ export default function BreakFastSection() {
           {
             src: "/images/banana-bread.jpg",
             alt: "How to make Bananna Bread French Toast",
-            title: "Bananna BreadToast",
+            title: "Bananna Bread",
           },
 
           {
