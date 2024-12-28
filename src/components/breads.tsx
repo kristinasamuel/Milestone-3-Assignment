@@ -19,7 +19,7 @@ export default function BreadsSection() {
           {
             src: "/images/pumpkin-streusel.jpeg",
             alt: "Pumpkin Streusel Muffins with Vanilla Bean Glaze",
-            title: "Pumpkin Streusel Muffins with Vanilla Bean Glaze",
+            title: "Pumpkin Streusel Muffins",
           },
 
           {

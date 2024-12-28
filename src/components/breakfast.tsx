@@ -9,23 +9,23 @@ export default function BreakFastSection() {
           {
             src: "/images/pumpkin-pancakes.jpg",
             alt: "Pumpkin Spice Pancakes with Vanila Cream Syrup",
-            title: "Pumpkin Spice Pancakes with Vanila Cream Syrup",
+            title: "Pumpkin Spice Pancakes",
           },
           {
             src: "/images/Homemade-Rolls.jpg",
             alt: "Homemade Orange Cinnamon Rolls with Orange Lcing",
-            title: "Homemade Orange Cinnamon Rolls with Orange Lcing",
+            title: "Orange Cinnamon Rolls",
           },
           {
             src: "/images/banana-bread.jpg",
             alt: "How to make Bananna Bread French Toast",
-            title: "How to make Bananna Bread French Toast",
+            title: "Bananna Bread Toast",
           },
 
           {
             src: "/images/Hawaiian-Banana.jpg",
             alt: "The Best Hawaiian Banana Nut Bread with Pineapple",
-            title: "The Best Hawaiian Banana Nut Bread with Pineapple",
+            title: "Hawaiian Banana Bread ",
           },
         ].map((item, index) => (
           <div

@@ -11,7 +11,7 @@ export default function RecentRecipeSection() {
           {
             src: "/images/creamy-chicken.jpg",
             alt: "Creamy Chicken Enchilada Soup",
-            title: "Creamy Chicken Enchilada Soup",
+            title: "Creamy Chicken",
           },
           {
             src: "/images/hot-buttered-rum.jpg",
@@ -21,13 +21,13 @@ export default function RecentRecipeSection() {
           {
             src: "/images/peanut-butter-cup.jpeg",
             alt: "Reese's Peanut Butter Cup Rice Krispie Treats",
-            title: "Reese's Peanut Butter Cup Rice Krispie Treats ",
+            title: "Reese's Peanut ButterCup",
           },
 
           {
             src: "/images/rustic-garlic-chicken.jpg",
             alt: "Rustic Creamy Garlic Chicken",
-            title: "Rustic Creamy Garlic Chicken",
+            title: "Rustic Creamy Chicken",
           },
         ].map((item, index) => (
           <div

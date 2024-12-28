@@ -20,12 +20,12 @@ export default function HeroSection() {
           {
             src: "/images/savory.jpg",
             alt: "Savory Pumpkin Sausage Gnocchi",
-            title: "Savory Pumpkin Sausage Gnocchi",
+            title: "Pumpkin Gnocchi",
           },
           {
             src: "/images/cocktail.jpg",
-            alt: "How to Make the Classic Sidecar Cocktail",
-            title: "How to Make the Classic Sidecar Cocktail",
+            alt: "Classic Sidecar Cocktail",
+            title: "Classic Sidecar Cocktail",
           },
           {
             src: "/images/cups.jpg",
@@ -35,27 +35,27 @@ export default function HeroSection() {
           {
             src: "/images/shredded.jpg",
             alt: "Shredded Beef Tacos with Avocado and Lime",
-            title: "Shredded Beef Tacos with Avocado and Lime",
+            title: "Shredded Beef Tacos",
           },
           {
             src: "/images/creamyfresh.jpg",
             alt: "Creamy Fresh Corn Risotto",
-            title: "Creamy Fresh Corn Risotto",
+            title: "Fresh Corn Risotto",
           },
           {
             src: "/images/sheetpan.jpeg",
             alt: "Sheet Pan Sweet Potatoes, Apples and Brussels Sprouts",
-            title: "Sheet Pan Sweet Potatoes, Apples and Brussels Sprouts",
+            title: "Sweet Potatoes",
           },
           {
             src: "/images/Miso.jpeg",
             alt: "Easy Miso Glazed Salmon",
-            title: "Easy Miso Glazed Salmon",
+            title: "Miso Glazed Salmon",
           },
           {
             src: "/images/pumpkin.jpeg",
             alt: "Hearty Guinness Pumpkin Chili",
-            title: "Hearty Guinness Pumpkin Chili",
+            title: "Hearty Pumpkin Chili",
           },
 
         ] .map((item,index) =>(
