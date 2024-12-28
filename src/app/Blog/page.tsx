@@ -24,7 +24,7 @@ export default function BlogPage() {
     {
       id: "3",
       title: "Beef Pulao Recipe",
-      src: "/images/beef-pulao.png",
+      src: "/images/Beef-pulao.png",
       detail: "A flavorful and aromatic beef pulao to enjoy with family.",
       description:"To make Beef Pulao, heat oil in a pot and sauté whole spices like cinnamon,cloves, and cardamom. Add 1 kg beef cubes and brown them. Set aside. In the same pot, sauté onions until golden, then add ginger-garlic paste and chopped tomatoes. Stir in cumin, coriander, garam masala, chili powder, and salt. Add the beef back with water, simmer until tender. Rinse 2 cups basmati rice and add it to the pot with water. Cook until rice is done. Garnish with fried onions and serve!."
     },
