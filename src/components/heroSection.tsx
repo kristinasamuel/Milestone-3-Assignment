@@ -14,7 +14,7 @@ export default function HeroSection() {
            New & Trending
         </h3>
        </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gp-0  p-4 text-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gp-0 text-center">
 
         {[
           {
@@ -25,7 +25,7 @@ export default function HeroSection() {
           {
             src: "/images/cocktail.jpg",
             alt: "Classic Sidecar Cocktail",
-            title: "Classic Sidecar Cocktail",
+            title: "Sidecar Cocktail",
           },
           {
             src: "/images/cups.jpg",
@@ -35,12 +35,12 @@ export default function HeroSection() {
           {
             src: "/images/shredded.jpg",
             alt: "Shredded Beef Tacos with Avocado and Lime",
-            title: "Shredded Beef Tacos",
+            title: "Beef Tacos",
           },
           {
             src: "/images/creamyfresh.jpg",
             alt: "Creamy Fresh Corn Risotto",
-            title: "Fresh Corn Risotto",
+            title: "FreshCorn Risotto",
           },
           {
             src: "/images/sheetpan.jpeg",
@@ -50,12 +50,12 @@ export default function HeroSection() {
           {
             src: "/images/Miso.jpeg",
             alt: "Easy Miso Glazed Salmon",
-            title: "Miso Glazed Salmon",
+            title: "MisoGlazed Salmon",
           },
           {
             src: "/images/pumpkin.jpeg",
             alt: "Hearty Guinness Pumpkin Chili",
-            title: "Hearty Pumpkin Chili",
+            title: "Hearty Pumpkin",
           },
 
         ] .map((item,index) =>(

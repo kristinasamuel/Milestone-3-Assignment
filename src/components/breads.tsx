@@ -9,23 +9,23 @@ export default function BreadsSection() {
           {
             src: "/images/cornbread.jpeg",
             alt: "Pumpkin Spice Cornbread",
-            title: "Pumpkin Spice Cornbread",
+            title: "Spice Cornbread",
           },
           {
             src: "/images/french-puff.jpg",
             alt: "French Breakfast Puffs",
-            title: "French Breakfast Puffs",
+            title: "French Breakfas",
           },
           {
             src: "/images/pumpkin-streusel.jpeg",
             alt: "Pumpkin Streusel Muffins with Vanilla Bean Glaze",
-            title: "Pumpkin Streusel Muffins",
+            title: "Streusel Muffins",
           },
 
           {
             src: "/images/amish.jpg",
             alt: "Amish Pumpkin Bread",
-            title: "Amish Pumpkin Bread",
+            title: "Pumpkin Bread",
           },
         ].map((item, index) => (
           <div
@@ -40,7 +40,7 @@ export default function BreadsSection() {
               className=" rounded transition transform hover:scale-105 ease-in-out"
             />
             <div className="mt-2 text-center">
-              <p className="text-[18px] text-red-400 hover:text-teal-500 text-center w-full md:w-[170px]">
+              <p className="text-[18px] text-red-400 hover:text-teal-500 text-center">
                 {item.title}
               </p>
             </div>

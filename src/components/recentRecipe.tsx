@@ -16,18 +16,18 @@ export default function RecentRecipeSection() {
           {
             src: "/images/hot-buttered-rum.jpg",
             alt: "Classic Hot Buttered Rum",
-            title: "Classic Hot Buttered Rum",
+            title: "Buttered Rum",
           },
           {
             src: "/images/peanut-butter-cup.jpeg",
             alt: "Reese's Peanut Butter Cup Rice Krispie Treats",
-            title: "Reese's Peanut ButterCup",
+            title: "Peanut ButterCup",
           },
 
           {
             src: "/images/rustic-garlic-chicken.jpg",
             alt: "Rustic Creamy Garlic Chicken",
-            title: "Rustic Creamy Chicken",
+            title: "Creamy Chicken",
           },
         ].map((item, index) => (
           <div
@@ -42,7 +42,7 @@ export default function RecentRecipeSection() {
               className=" rounded transition transform hover:scale-105 ease-in-out"
             />
             <div className="mt-2 text-center">
-              <p className="text-[18px] text-red-400 hover:text-teal-500 text-center w-full md:w-[170px]">
+              <p className="text-[18px] text-red-400 hover:text-teal-500 text-center w">
                 {item.title}
               </p>
             </div>
