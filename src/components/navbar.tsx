@@ -61,11 +61,11 @@ export default function Navbar() {
                 Blog
               </li>
               </Link>
-              <Link href={"/"}><li className="text-red-400 hover:text-teal-500 hover:underline underline-offset-8">
+              <Link href={"/About"}><li className="text-red-400 hover:text-teal-500 hover:underline underline-offset-8">
                 About
               </li>
               </Link>
-              <Link href={"/"}><li className="text-red-400 hover:text-teal-500 hover:underline underline-offset-8">
+              <Link href={"/Contact"}><li className="text-red-400 hover:text-teal-500 hover:underline underline-offset-8">
                 Contact
               </li>
               </Link>
