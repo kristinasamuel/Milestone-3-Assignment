@@ -14,11 +14,21 @@ export default function FooterSection() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4  mt-12 text-center">
         <div>
-          <h1 className="text-[28px] md:text-3xl lg:text-3xl uppercase font-semibold">Quick Links</h1>
-          <ul className="uppercase text-red-400 text-xl space-y-3 mt-5 ">
-            <li className="hover:text-teal-500 hover:underline">About</li>
-            <li className="hover:text-teal-500 hover:underline">Contact</li>
-            <li className="hover:text-teal-500 hover:underline">Shop</li>
+          <h1 className="text-[28px] md:text-3xl lg:text-3xl uppercase font-semibold">
+            Quick Links
+          </h1>
+          <ul className="uppercase text-red-400 text-xl gap-4 mt-5 ">
+            <Link href={"/Blog"}>
+              <li className="hover:text-teal-500 hover:underline">Blog</li>
+            </Link>
+            <Link href={"/About"}>
+              <li className="hover:text-teal-500 hover:underline mt-2">
+                About
+              </li>
+            </Link>
+            <Link href={"/Contact"}>
+              <li className="hover:text-teal-500 hover:underline mt-2">Contact</li>
+            </Link>
           </ul>
         </div>
 
@@ -26,9 +36,18 @@ export default function FooterSection() {
           <h2 className="text-[28px] md:text-3xl text-3xl uppercase font-semibold mt-5 md:mt-0">
             Social Media
           </h2>
-          <ul className="uppercase text-red-400 text-xl space-y-3 mt-5">
-            <li className="hover:text-teal-500 hover:underline">Linkdin</li>
-            <li className="hover:text-teal-500 hover:underline">Github</li>
+          <ul className="uppercase text-red-400 text-xl mt-5">
+            <Link
+              href="https://www.linkedin.com/in/Kristina-samuel-21a6942ba"
+              target="_blank"
+            >
+              <li className="hover:text-teal-500 hover:underline">Linkdin</li>
+            </Link>
+            <Link href="https://github.com/kristinasamuel" target="_blank">
+              <li className="hover:text-teal-500 hover:underline mt-2">
+                Github
+              </li>
+            </Link>
           </ul>
         </div>
         <div>
@@ -41,7 +60,9 @@ export default function FooterSection() {
         </div>
       </div>
       <div className="bg-neutral-100 text-center mt-5">
-        <p className="p-2 uppercase font-serif"> copyright © 2024 Recipe Blog.</p>
+        <p className="p-2 uppercase font-serif">
+          copyright © 2024 Recipe Blog.
+        </p>
       </div>
     </div>
   );
