@@ -82,7 +82,7 @@ export default function DetailPage({ params }: { params: { id: string } }) {
   return (
     <div>
       <div className="flex flex-col items-center lg:items-start mt-6 md:mt-20 lg:mt-20 ml-0 sm:ml-0 md:ml-0 lg:ml-[130px]  px-[8px] lg:px-0">
-        <h1 className="text-[38px] font-bold mt-10 ">{blog.title}</h1>
+        <h1 className="text-[38px] font-bold mt-4 text-center ">{blog.title}</h1>
         <Image
           src={blog.src}
           alt={blog.title}
@@ -93,7 +93,7 @@ export default function DetailPage({ params }: { params: { id: string } }) {
         <h3 className="text-[38px] italic text-red-400 font-bold mt-8">
           Your Recipe:
         </h3>
-        <p className="text-gray-700 mt-5 text-[18px] w-full lg:max-w-3xl p-2 text-center">
+        <p className="text-gray-700 mt-5 text-[18px] w-full lg:max-w-3xl text-center md:text-left lg:text-left">
           {blog.description}
         </p>
         <p className="text-[24px] text-teal-400 font-medium mt-5 italic text-center">

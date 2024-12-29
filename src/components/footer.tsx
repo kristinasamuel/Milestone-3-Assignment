@@ -14,7 +14,7 @@ export default function FooterSection() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4  mt-12 text-center">
         <div>
-          <h1 className="text-3xl uppercase font-semibold">Quick Links</h1>
+          <h1 className="text-[28px] md:text-3xl lg:text-3xl uppercase font-semibold">Quick Links</h1>
           <ul className="uppercase text-red-400 text-xl space-y-3 mt-5 ">
             <li className="hover:text-teal-500 hover:underline">About</li>
             <li className="hover:text-teal-500 hover:underline">Contact</li>
@@ -23,7 +23,7 @@ export default function FooterSection() {
         </div>
 
         <div>
-          <h2 className="text-3xl uppercase font-semibold mt-5 md:mt-0">
+          <h2 className="text-[28px] md:text-3xl text-3xl uppercase font-semibold mt-5 md:mt-0">
             Social Media
           </h2>
           <ul className="uppercase text-red-400 text-xl space-y-3 mt-5">
@@ -32,17 +32,16 @@ export default function FooterSection() {
           </ul>
         </div>
         <div>
-          <h3 className="text-3xl uppercase font-semibold mt-5 md:mt-0">
+          <h3 className="text-[28px] md:text-3xl text-3xl uppercase font-semibold mt-5 md:mt-0">
             Contact Information
           </h3>
           <p className="text-red mt-5 text-xl text-red-400 hover:text-teal-500 hover:underline">
-            {" "}
             Email: karistina97@gmail.com
           </p>
         </div>
       </div>
       <div className="bg-neutral-100 text-center mt-5">
-        <p className="p-2 uppercase font-serif"> copyright © 2024 Kristina </p>
+        <p className="p-2 uppercase font-serif"> copyright © 2024 Recipe Blog.</p>
       </div>
     </div>
   );

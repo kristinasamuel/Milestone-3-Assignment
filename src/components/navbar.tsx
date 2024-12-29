@@ -13,8 +13,8 @@ export default function Navbar() {
   return (
     <>
       <header className="h-[88px]  border-gray-300 flex items-center justify-between border px-4">
-        <span className="text-3xl  lg:text-5xl md:ml-14 md:text-center text-teal-400 font-serif hover:text-red-400  ">
-        Recipe Book
+        <span className="text-3xl md:text-[42px] lg:text-[42px] md:ml-14 md:text-center text-teal-400 font-serif hover:text-red-400  ">
+        Recipe Blog
         </span>
 
         <div className="sm:hidden">
