@@ -1,3 +1,4 @@
+// Home // landing page 
 import HeroSection from "@/components/heroSection";
 import FindRecipe from "@/components/findRecipe";
 import BreadsSection from "@/components/breads";

@@ -1,7 +1,7 @@
 // Home // About Page 
 export default function page() {
   return (
-    <div className="flex flex-col items-center justify-center  ml-0 lg:ml-[70px] mt-20">
+    <div className="flex flex-col items-center justify-center ml-0 lg:ml-[70px] mt-20">
       <h3 className="font-bold text-[32px] md:text-[40px] lg:text-[40px] font-serif text-center">
         Cooking with Passion Our Story
       </h3>
@@ -14,7 +14,7 @@ export default function page() {
         meals, special dishes, and fun twists on classics—something for everyone
         to enjoy.
       </p>
-      <p className="font-normal text-red-400 text-[20px] mt-4 text-center mb-20">
+      <p className="font-normal text-red-400 text-[20px] mt-4 text-center mb-10">
         Thank you for being part of this journey. Let's make something delicious
         together!
       </p>
