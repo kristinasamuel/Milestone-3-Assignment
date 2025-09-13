@@ -1,4 +1,5 @@
-// Home // About Page 
+// Home // About Page  
+// detail page of the blog
 export default function page() {
   return (
     <div className="flex flex-col items-center justify-center ml-0 lg:ml-[70px] mt-20">

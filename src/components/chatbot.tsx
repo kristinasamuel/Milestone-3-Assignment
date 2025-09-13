@@ -1,10 +1,9 @@
-// Chatbot 
+// Chatbot Ai Assistant component
 "use client";
 
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: string; content: string }[]>([]);
@@ -54,7 +53,7 @@ export default function Chatbot() {
         onClick={toggleChat}
         className="fixed bottom-6 right-6 bg-gradient-to-r from-teal-500 to-red-400 text-white px-6 py-3 rounded-full shadow-lg hover:opacity-90"
       >
-        <Image src="/images/robote.jpg" alt="AI Assistant" height={20} width={20} /> 🤖 AI Assistant
+        🤖 AI Assistant
       </Button>
 
       {/* Chat Window */}
