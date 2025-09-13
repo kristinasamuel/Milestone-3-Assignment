@@ -61,8 +61,9 @@ export default function Navbar() {
         </SignedIn>
       </div>
 
-      {/* Mobile Menu Toggle */}
-      <div className="sm:hidden">
+      {/* Mobile Right Section */}
+      <div className="sm:hidden flex items-center gap-3">
+        {/* Menu Toggle */}
         <Button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-teal-500 bg-white hover:bg-gray-100 rounded-full p-2"
@@ -73,6 +74,11 @@ export default function Navbar() {
             <FiMenu className="w-6 h-6" />
           )}
         </Button>
+
+        {/* Show UserButton beside menu icon when signed in */}
+        <SignedIn>
+          <UserButton afterSignOutUrl="/" />
+        </SignedIn>
       </div>
 
       {/* Mobile Menu */}
@@ -110,10 +116,6 @@ export default function Navbar() {
                 </Button>
               </SignInButton>
             </SignedOut>
-
-            <SignedIn>
-              <UserButton afterSignOutUrl="/" />
-            </SignedIn>
           </div>
         </div>
       )}

@@ -8,6 +8,7 @@ export default function HeroSection() {
        <div className=" p-4  text-center">
          <h2 className="text-4xl uppercase font-bold">
            Reliable recipes from a chef's kitchen.
+
          </h2>
          <h3 className="mt-10 text-3xl uppercase font-semibold">
            {" "}

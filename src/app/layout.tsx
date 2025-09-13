@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import FooterSection from "@/components/footer";
+import Chatbot from "@/components/chatbot";
 import {
   ClerkProvider,
  
@@ -37,6 +38,8 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        <Chatbot />
+
         <FooterSection/>
       </body>
     </html>

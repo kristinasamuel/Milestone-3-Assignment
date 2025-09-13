@@ -1,0 +1,66 @@
+{
+  "Appetizers": [
+    {
+      "name": "Spring Rolls",
+      "ingredients": ["Cabbage", "Carrot", "Flour", "Oil"],
+      "steps": "Mix vegetables, wrap, fry until golden.",
+      "time": "30 min"
+    },
+    {
+      "name": "Garlic Bread",
+      "ingredients": ["Bread", "Garlic", "Butter", "Parsley"],
+      "steps": "Spread garlic butter on bread, bake for 15 min.",
+      "time": "15 min"
+    }
+  ],
+  "Breakfast": [
+    {
+      "name": "Pancakes",
+      "ingredients": ["Flour", "Eggs", "Milk", "Sugar"],
+      "steps": "Mix ingredients, cook on pan, serve with syrup.",
+      "time": "20 min"
+    }
+  ],
+  "Breads": [
+    {
+      "name": "Naan",
+      "ingredients": ["Flour", "Yeast", "Yogurt", "Water"],
+      "steps": "Knead dough, rest, bake in tandoor.",
+      "time": "1 hour"
+    }
+  ],
+  "SpecialDishes": [
+    "Crab Cakes With Lemon Dill Sauce",
+    "The Best Crab Stuffed Mushrooms Recipe",
+    "How to Make an Epic Charcuterie Board",
+    "Cranberry Crostini with Fig Jam,Bacon,and Bleu Cheese",
+    "Pumpkin Spice Cornbread",
+    "French Breakfast Puffs",
+    "Pumpkin Streusel Muffins",
+    "Amish Pumpkin Bread",
+    "Pumpkin Pancakes",
+    "Orange Cinnamon Rolls",
+    "Banana Bread French Toast",
+    "Hawaiian Banana Nut Bread",
+    "Pumpkin Gnocchi",
+    "Sidecar Cocktail",
+    "Charcuterie Cups",
+    "Beef Tacos",
+    "Fresh Corn Risotto",
+    "Sweet Potatoes",
+    "Glazed Salmon",
+    "Hearty Pumpkin Chili",
+    "Creamy Chicken Enchilada Soup",
+    "Classic Hot Buttered Rum",
+    "Peanut Butter Cup Rice Krispie Treats",
+    "Rustic Creamy Garlic Chicken",
+    "Shami Kabab Garlic Rice",
+    "Cheesy Seekh Kabab",
+    "Beef Pulao Recipe",
+    "Oriental Chicken & Pasta",
+    "Boneless Chicken Karahi",
+    "Dhaba Fish Curry",
+    "Qeema Bhindi Fry",
+    "Murgh Musallam"
+  ]
+}
