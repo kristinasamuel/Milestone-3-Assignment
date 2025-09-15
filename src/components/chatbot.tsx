@@ -58,7 +58,10 @@ export default function Chatbot() {
 
       {/* Chat Window */}
       {isOpen && (
-        <Card className="fixed bottom-20 right-6 w-96 h-[480px] rounded-2xl shadow-2xl border border-gray-200 flex flex-col">
+        // <Card className="fixed bottom-20 right-6 w-96 h-[480px] rounded-2xl shadow-2xl border border-gray-200 flex flex-col">
+          <Card
+  className="
+    fixed bottom-20 right-6 w-96 h-[480px] rounded-2xl shadow-2xl border border-gray-200 flex flex-col max-sm:bottom-1/2 max-sm:left-1/2 max-sm:-translate-x-1/2 max-sm:translate-y-1/2 max-sm:w-[90%] max-sm:h-[400px]">
           <CardHeader className="bg-gray-50 border-b flex justify-center items-center py-4">
             <span className="text-xl md:text-3xl font-serif text-teal-500 hover:text-red-400 cursor-pointer">
               Foodie's Dreamland

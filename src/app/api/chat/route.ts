@@ -1,24 +1,7 @@
 import { NextResponse } from "next/server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// Session ek baar hi create hoga (history maintain hogi)
 let chatSession: any = null;
-
-// Guardrail function: sirf recipe related input allow karega
-function recipeGuardrail(input: string) {
-  const isRecipeRelated = /(recipe|cook|food|dish|ingredient|meal|breakfast|lunch|dinner|snack|bake|cake|bread|pasta|pizza)/i.test(
-    input
-  );
-
-  if (!isRecipeRelated) {
-    return {
-      triggered: true,
-      reply: "⚠️ Sorry, I am a recipe assistant. Please ask me about recipes only 🍲",
-    };
-  }
-
-  return { triggered: false };
-}
 
 export async function POST(req: Request) {
   try {
@@ -31,20 +14,20 @@ export async function POST(req: Request) {
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
     const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
-    // Guardrail check
-    const guard = recipeGuardrail(message);
-    if (guard.triggered) {
-      return NextResponse.json({ reply: guard.reply });
-    }
-
+    // Create chat session once with instructions
     if (!chatSession) {
       chatSession = model.startChat({
         history: [
           {
-            role: "system",
+            role: "user", // yahan system role use hoga
             parts: [
               {
-                text: "You are Foodie's Dreamland Recipe Assistant. Always provide helpful, step-by-step recipe guidance.",
+                text: `You are Foodie's Recipe Assistant 🍲.
+- Always give helpful, step-by-step recipe guidance.
+- If user says greetings (hi, hello, salam, etc.), reply politely as a friendly assistant.
+- If user asks about non-food topics (politics, maths, physics, business, etc.), strictly say:
+  "⚠️ I can only help with recipes and cooking. Please ask me about food 🍲"
+- Always stay within recipes, food, cooking, and ingredients.`,
               },
             ],
           },
@@ -55,6 +38,7 @@ export async function POST(req: Request) {
       });
     }
 
+    // Send user message
     const result = await chatSession.sendMessage(message);
 
     return NextResponse.json({ reply: result.response.text() });
@@ -66,4 +50,3 @@ export async function POST(req: Request) {
     );
   }
 }
-
